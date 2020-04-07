@@ -19,7 +19,7 @@ for (let i = 0; i < users.length; i++) {
 
 let scrumWheel = new Winwheel({
     "canvasId": "wheel-canvas",
-    "outerRadius": 250,
+    "outerRadius": 175,
     "numSegments": segments.length,
     "segments": segments
     ,
@@ -49,7 +49,7 @@ function drawPointer() {
     if (ctx) {
         ctx.save();
         ctx.rotate(scrumWheel.degToRad(-45));
-        ctx.drawImage(pointerImage, 225, 405);
+        ctx.drawImage(pointerImage, 195, 305);
         ctx.restore();
     }
 }

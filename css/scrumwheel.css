@@ -22,12 +22,12 @@ body {
 
 #banner {
   color: #fff;
-  font-size: 86px;
+  font-size: 48px;
   z-index:5;
   position: absolute; 
   text-align: center;
   margin: 0 auto;
-  top: 200px;
+  top: 100px;
   left: 0;
   right: 0;
   visibility: hidden;
