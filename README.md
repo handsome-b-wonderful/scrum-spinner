@@ -2,7 +2,13 @@
 
 ## Randomly pick the order for your remote stand-ups
 
+Demo here:
 
-Add your attendees with the *users* query parameter of the url:
+http://www.dochstader.com/scrum
 
-```?users=Ricky%2CJullian%2CBubbles%2CMr.+Lahey%2CCory%2CTrevor```
+
+Add your attendees with the *users* query parameter.
+
+example:
+
+`http://www.dochstader.com/scrum/?users=Bert%2CErnie%2COscar%2Cbig-bird`
